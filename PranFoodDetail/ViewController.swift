@@ -20,8 +20,8 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     }
     
     
-   var arrr = ["Chocolate Cacke","Masala Ruti","Jhal Muri"]
-    var imagearr = [UIImage(named: "chips"),UIImage(named: "muri"),UIImage(named: "juice")]
+   var arrr = ["Juice","Chips","Pizza bun","Muri"]
+    var imagearr = [UIImage(named: "juice"),UIImage(named: "chips"),UIImage(named: "bun"), UIImage(named: "muri")]
 
     @IBOutlet weak var tableView: UITableView!
     
